@@ -11,5 +11,5 @@ k6 run ./scripts/user.js
 ### .env가 적용이 안되는 경우
 ```
 npm install -g dotenv-cli
-dotenv -e .env -- k6 run {테스트}.js
+dotenv -e .env -- k6 run ./scripts/user.js // user.js 기준
 ```
